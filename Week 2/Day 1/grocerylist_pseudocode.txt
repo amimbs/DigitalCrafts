@@ -1,0 +1,7 @@
+make a class for grocery list
+    define where to buy the groceies
+        what to buy there
+    print the list
+
+    function to add to existing lists
+    
