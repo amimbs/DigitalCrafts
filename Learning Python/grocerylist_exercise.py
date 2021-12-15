@@ -40,7 +40,7 @@ class ShoppingList:
 def display_all_shopping_lists(): 
     for index in range(0, len(shopping_lists)):
       shopping_list = shopping_lists[index]
-      print(f"{index}: {shopping_list.name}")
+      print(f"{index +1}. {shopping_list.name}") # the dot is for dispay purposes 1. walmart, 2 fiesta., 3 aldi. etc
 
 
 print("1. Add a shopping list")
