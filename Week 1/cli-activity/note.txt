@@ -1,0 +1,12 @@
+file system is the collection of files and folders
+websites live on our computers. Local side or on a server if they're accessible to everyone
+dont have spaces in your file or folder names.
+Use dashes or underscore
+camel case everything
+index.html is usually the file that gets opened first folder for any website you build. Html is the language we build websites in
+relative path folder locations from what ever their containing location is. EX: Folder1/Activity1
+absolute path the path of a folder location starting from the root folder. they always start with /. Which tells your computer that a folder is in the root folder /User/Desktop/Folder1/Activity/
+
+.. means parent folder
+./ means curent folder
+
