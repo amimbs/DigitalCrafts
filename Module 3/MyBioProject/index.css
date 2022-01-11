@@ -1,0 +1,102 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Ubuntu:wght@300&display=swap');
+        
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, p {
+    color: white;
+}
+
+#brief-bio {
+    font-size: 22px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    background: #0B0A07;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#profile-photo {
+    border-radius: 50%;
+    width: 180px;
+    border: 5px solid white
+}
+
+.my-links {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    width: 50%
+}
+
+.my-links > li {
+    /* margin-usage: top right bottom left */
+    margin: 12px 0px 12px 0px;
+}
+
+.my-links > li > a:hover,
+.my-links > li > a:focus {
+    background: rgb(36, 139, 146);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facebook-icon {
+    height: 25px;
+    width: 25px;
+    background-image: url("./f_logo_RGB-White_72.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.linkedin-icon {
+    height: 25px;
+    width: 25px;
+    background-image: url(./linkedin-3-32.ico);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.github-icon {
+    height: 25px;
+    width: 25px;
+    background-image: url(./GitHub-Mark-Light-64px.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background: rgb(50, 191, 201);
+    border-radius: 6px;
+    padding: 12px;
+    max-width: 360px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.social-text {
+    font-size: 20px;
+    margin-left: 5px;
+}

@@ -1,0 +1,20 @@
+#!/usr/bin/bash
+
+# in the console type ./cfe my-project. The way we wrote our code, the command line accepts the name of our script and an argument, the argument is $1 which is a variable defined by the user. In this case, the variable os "my-project"
+mkdir $1
+
+cd $1
+
+mkdir assets css js
+
+touch index.html
+
+cd css
+
+touch style.css
+
+cd ..
+
+cd js
+
+touch scripts.js

@@ -1,0 +1,30 @@
+.parent-box {
+    background: lavender;
+    padding: 50px;
+    height: 150vh;
+}
+
+.child1 {
+    background: lime;
+}
+
+.child2 {
+    background: aqua;
+}
+
+.child3 {
+    background: orange;
+}
+
+body {
+    font-size: 75px;
+    @media (min-width: 600px) {
+        font-size: 100px
+    }
+}
+
+@media (min-width: 300px) {
+    .parent-box {
+        background: blue
+    }
+}

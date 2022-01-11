@@ -1,0 +1,13 @@
+body {
+    background: lightblue;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman", Serif;
+    font-size: 20px;
+}
